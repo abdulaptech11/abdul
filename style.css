@@ -1,0 +1,633 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Acme&display=swap');
+
+body {
+  background: #fff;
+  color: #444;
+  font-family: "Open Sans", sans-serif;
+  overflow-x: hidden;
+}
+.navbar-brand{
+  font-family: 'Abril Fatface', cursive;
+  font-family: 'Acme', sans-serif;
+  letter-spacing: 0.8px;
+}
+#mynavbar li{
+  padding-right: 5px;
+  letter-spacing: 1px;
+  font-family: 'Abril Fatface', cursive;
+  font-family: 'Acme', sans-serif;
+}
+
+#mynavbar li :hover{
+  color: blue;
+}
+
+
+a {
+  color: #1bb1dc;
+  transition: 0.5s;
+}
+
+/* Navbar */
+
+.navbar-text a{
+  font-family: 'Caprasimo', cursive;
+  font-size: 30px;
+}
+.carousel-caption{
+  margin-bottom: 260px;
+  color: black;
+}
+
+/* intro section */
+
+#intro {
+    width: 100%;
+    position: relative;
+    background: #8cf4ff;
+    background-size: cover;
+  }
+
+  #intro p{
+    text-align: justify;
+  }
+  
+  #intro .intro-info h2 {
+    color: #817bc5;
+    margin-bottom: 40px;
+    font-size: 48px;
+    font-weight: 700;
+  }
+  
+  #intro .intro-info h2 span {
+    color: #247cff;
+  }
+  
+  #intro .intro-info .btn-get-started,
+  #intro .intro-info .btn-services {
+    font-family: "Montserrat", sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 10px 32px;
+    border-radius: 4px;
+    transition: 0.5s;
+    color: #fff;
+    background: #1bb1dc;
+    color: #fff;
+  }
+  
+  #intro .intro-info .btn-get-started:hover,
+  #intro .intro-info .btn-services:hover {
+    background: #0a98c0;
+  }
+
+  /* Section with background
+--------------------------------*/
+
+.section-bg {
+  background: #f5f8fd;
+}
+
+/* About Us Section
+--------------------------------*/
+
+#about {
+  padding: 80px 0;
+}
+
+#about .about-content {
+  padding-top: 40px;
+}
+
+#about .about-content h2 {
+  color: #413e66;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+
+#about .about-content h3 {
+  color: #696592;
+  font-weight: 400;
+  font-size: 22px;
+  font-style: italic;
+}
+
+#about .about-content ul {
+  list-style: none;
+  padding: 0;
+}
+
+#about .about-content ul li {
+  padding-bottom: 10px;
+}
+
+#about .about-content ul li i {
+  font-size: 20px;
+  padding-right: 4px;
+  color: #1bb1dc;
+}
+
+#about .about-img {
+  position: relative;
+  margin: 30px 30px 30px 30px;
+}
+
+#about .about-img img {
+  width: 100%;
+  border: 8px solid #fff;
+  transition: .5s;
+}
+
+#about .about-img img:hover {
+  width: 100%;
+  -webkit-transform: scale(1.03);
+  transform: scale(1.03);
+}
+
+#about .about-img::before {
+  position: absolute;
+  left: -31px;
+  top: -30px;
+  width: 90%;
+  height: 92%;
+  z-index: -1;
+  content: '';
+  background-color: #ebf1fa;
+  transition: .5s;
+}
+
+#about .about-img::after {
+  position: absolute;
+  right: -31px;
+  bottom: -30px;
+  width: 90%;
+  height: 92%;
+  z-index: -1;
+  content: '';
+  background-color: #ebf1fa;
+  transition: .5s;
+}
+
+/*  Section
+--------------------------------*/
+
+/* People Section
+--------------------------------*/
+#people {
+  background: #8cf4ff;
+}
+
+#people .p{
+  text-align: justify;
+}
+
+#people .c4 {
+  background: #15314e;
+  color: white;
+}
+
+/* Clients Section
+--------------------------------*/
+
+#clients {
+  background: #8cf4ff;
+}
+
+#clients h3 {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+#clients .caroumy {
+  margin-left: 350px;
+}
+
+/* MSSP Section
+--------------------------------*/
+
+#mssp {
+  background: #ffffff;
+  padding: 100px;
+}
+#mssp h3 {
+  padding-bottom: 30px;
+}
+#mssp img {
+  height: auto;
+  width: 300px;
+  border-radius: 50%;
+}
+#mssp .msspc h5{
+  margin-top: 40px;
+  text-align: center;
+}
+#mssp .msspc p{
+  margin-top: 10px;
+  text-align: justify;
+  letter-spacing: 0.7px;
+}
+#mssp p{
+  text-align: justify;
+}
+
+/* Pricing Section
+--------------------------------*/
+
+#pricing {
+  padding: 80px 0;
+  background: rgb(240, 252, 255);
+}
+
+#pricing .card {
+  border: 0;
+  border-radius: 0px;
+  box-shadow: 0 3px 0px 0 rgba(65, 62, 102, 0.08);
+  transition: all .3s ease-in-out;
+  padding: 36px 0;
+  position: relative;
+}
+
+#pricing .card:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 5px;
+  background-color: #1bb1dc;
+  transition: 0.5s;
+}
+
+#pricing .card:hover {
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+  box-shadow: 0 20px 35px 0 rgba(0, 0, 0, 0.08);
+}
+
+#pricing .card:hover:after {
+  width: 100%;
+}
+
+#pricing .card .card-header {
+  background-color: white;
+  border-bottom: 0px;
+  -moz-text-align-last: center;
+  text-align-last: center;
+}
+
+#pricing .card .card-title {
+  margin-bottom: 16px;
+  color: #535074;
+}
+
+#pricing .card .card-block {
+  padding-top: 0;
+  text-align: center;
+}
+
+#pricing .card .list-group-item {
+  border: 0px;
+  padding: 6px;
+  color: #413e66;
+  font-weight: 300;
+}
+
+#pricing .card h3 {
+  font-size: 64px;
+  margin-bottom: 0px;
+  color: #535074;
+}
+
+#pricing .card h3 .currency {
+  font-size: 30px;
+  position: relative;
+  font-weight: 400;
+  top: -30px;
+  letter-spacing: 0px;
+}
+
+#pricing .card h3 .period {
+  font-size: 16px;
+  color: #6c67a3;
+  letter-spacing: 0px;
+}
+
+#pricing .card .list-group {
+  margin-bottom: 15px;
+}
+
+#pricing .card .btn {
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 500;
+  color: #5f5b96;
+  border-radius: 0;
+  padding: 10px 24px;
+  letter-spacing: 1px;
+  border-radius: 3px;
+  display: inline-block;
+  background: #1bb1dc;
+  color: #fff;
+}
+
+#pricing .card .btn:hover {
+  background: #0a98c0;
+}
+
+/* Services Section
+--------------------------------*/
+
+
+ #services {
+  padding: 60px 0 40px 0;
+  background: #8cf4ff;
+}
+
+.section-header h3{
+  text-align: center;
+  text-shadow: #111;
+}
+.section-header h1{
+  text-align: center;
+  text-shadow: #111;
+}
+
+.section-header p{
+  text-align: center;
+  text-decoration: dotted;
+}
+
+#services .box {
+  padding: 30px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  margin: 0 10px 40px 10px;
+  background: #fff;
+  box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
+  transition: all 0.3s ease-in-out;
+  text-align: center;
+}
+
+#services .box:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+#services .icon img{
+  height: 50px;
+  width: 50px;
+}
+
+#services .icon1 img{
+  height: 50px;
+  width: 80px;
+}
+
+#services .icon i {
+  font-size: 36px;
+  line-height: 1;
+}
+
+#services .title {
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+#services .title a {
+  color: #111;
+}
+
+#services .box:hover .title a {
+  color: #412cff;
+}
+
+#services .description {
+  font-size: 14px;
+  line-height: 28px;
+  margin-bottom: 0;
+  text-align: justify;
+} 
+
+#about p{
+  text-align: justify;
+}
+
+/* Team Section
+--------------------------------*/
+
+#team {
+  padding: 60px 0;
+  background: #ffffff;
+}
+
+#team .member {
+  text-align: center;
+  margin-bottom: 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+#team .member .member-info {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  transition: 0.2s;
+  padding: 15px 0;
+  background: rgba(29, 28, 41, 0.6);
+}
+
+#team .member .member-info-content {
+  transition: margin 0.2s;
+  height: 40px;
+  transition: height 0.4s;
+}
+
+#team .member:hover .member-info {
+  transition: 0.4s;
+}
+
+#team .member:hover .member-info-content {
+  height: 80px;
+}
+
+#team .member h4 {
+  font-weight: 700;
+  margin-bottom: 2px;
+  font-size: 18px;
+  color: #fff;
+}
+
+#team .member span {
+  font-style: italic;
+  display: block;
+  font-size: 13px;
+  color: #fff;
+}
+
+#team .member .social {
+  margin-top: 15px;
+}
+
+#team .member .social a {
+  transition: none;
+  color: #fff;
+}
+
+#team .member .social a:hover {
+  color: #1bb1dc;
+}
+
+#team .member .social i {
+  font-size: 18px;
+  margin: 0 2px;
+}
+
+/* Footer */
+
+footer{
+  width: 100%;
+  /* position: absolute; */
+  bottom: 0;
+  background: linear-gradient(to right,rgb(0, 255, 242), rgb(101, 25, 255));
+  color: #fff;
+  padding: 50px 0 30px;
+  font-size: 13px;
+  line-height: 20px;
+}
+footer .row{
+  width: 85%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.col{
+  flex-basis: 25%;
+  padding: 10px;
+}
+.logo{
+  width: 160px;
+  margin-bottom: 30px;
+}
+.col h3{
+  width: fit-content;
+  margin-bottom: 40px;
+  position: relative;
+}
+.email{
+  width: fit-content;
+  border-bottom:  2px solid #78ebff;
+  margin: 20px 0;
+  text-decoration: none;
+  color: white;
+}
+ul li{
+  list-style: none;
+  margin-bottom: 12px;
+}
+ul li a{
+  text-decoration: none;
+  color: #fff;
+}
+form{
+  padding-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 4px solid #7aefff;
+  margin-bottom: 50px;
+}
+form .fa-regular{
+  font-size: 18px;
+  margin-right: 10px;
+}
+form input{
+  width: 100%;
+  background: transparent;
+  color: #ffffff;
+  border: 0;
+  outline: none;
+}
+form button{
+  background: transparent;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+}
+.fa-solid{
+  font-size: 16px;
+  color: #ccc;
+}
+.social-icons .fa-brands{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  font-size: 20px;
+  color: #000;
+  background: #fff;
+  margin-right: 15px;
+  cursor: pointer;
+}
+hr{
+  width: 90%;
+  border: 0;
+  border-bottom: 2px solid #ffffff;
+  margin: 20px auto;
+}
+.copyright{
+  text-align: center;
+}
+#footer p{
+  text-align: justify;
+}.nl1:hover{
+       color: white;
+       text-decoration: underline;
+       margin-top: 3px;
+}
+.nl2:hover{
+       color: white;
+       text-decoration: underline;
+       margin-top: 3px;
+}
+.nl3:hover{
+       color: white;
+       text-decoration: underline;
+       margin-top: 3px;
+}
+.nl4:hover{
+       color: white;
+       text-decoration: underline;
+       margin-top: 3px;
+}
+.nl5:hover{
+       color: white;
+       text-decoration: underline;
+       margin-top: 3px;
+}
+.nl6:hover{
+       color: white;
+       text-decoration: underline;
+       margin-top: 3px;
+}
+
